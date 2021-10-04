@@ -40,10 +40,51 @@
             color: white;
             border: 3px solid black;
         }
+
+        /* Group Selectors */
+        h1, h4 {
+            text-align: center;
+            font-size: 22px;
+            color: #fff;
+        }
+
+        #box3 p {
+            color: #fff;
+            font-size: 22px;
+        }
+
+        /* Pseudo class selector */
+        div:hover {
+            background-color: crimson;
+        }
+        
+        /* Click on the div element to see the p element
+        p {
+            display: none;
+            background-color: yellow;
+            padding: 20px;
+        }
+
+        div:hover p {
+            display: block;
+        }
+        */
+
+        /* Nested Selector */
+        #box4, #box5 p {
+            font-size: 22px;
+        }
+
+        /* First Child Pseudo Class */
+        p:first-child {
+            color: greenyellow;
+        }
+
     </style>
     
 </head>
 <body>
+    <h1>CSS SELECTORS</h1>
     <div id="box1">
         <h3 class="heading">HELLO WORLD</h3>
         <p> 
@@ -54,6 +95,28 @@
         <h3 class="heading">IT'S A TRAP</h3>
         <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, dignissimos enim. Animi officiis assumenda blanditiis ipsum debitis magni, commodi sequi esse. Impedit veniam veritatis error. Quas commodi rerum debitis corrupti.
+        </p>
+    </div>
+    <div id="box3">
+        <h4>LOREM IPSUM</h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium minima laudantium minus soluta, fugiat quis itaque quasi in? Illum exercitationem quae ad delectus maxime ipsa rem, ducimus voluptatem incidunt nostrum ipsam. Tempore numquam eligendi nulla fugiat aut tempora, incidunt, animi quae, consequuntur dignissimos molestias a.
+        </p>
+    </div>
+    <div id="box4">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, a! Veritatis, corrupti repellat quaerat dolorem enim quibusdam nesciunt libero! Neque, minima vel. Minus aliquam ad corrupti nemo exercitationem commodi nobis quasi repudiandae delectus natus cupiditate reprehenderit fugiat ab temporibus esse nihil porro ratione dicta placeat ea numquam inventore explicabo, aperiam aut. Voluptas quasi ex voluptates? Laboriosam?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati maxime neque doloremque officiis consequuntur distinctio, facere nihil voluptatem quasi quisquam sint consectetur explicabo sit velit expedita magni, sed ducimus illum delectus? Enim, porro. Placeat minima assumenda aliquid repudiandae fuga unde quae provident! Est laboriosam, eos natus dignissimos ullam, repellat sint, earum tempore vero nisi repellendus? Nemo!
+        </p>
+    </div>
+    <div id="box5">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam architecto reiciendis numquam tempora ipsa, vero obcaecati quibusdam eveniet quam modi voluptatibus maiores quisquam praesentium asperiores quo. Alias impedit odit deserunt fugit vel, exercitationem provident et ut porro rerum. Officiis, debitis? Laboriosam similique iusto doloremque provident soluta doloribus amet minus asperiores.
+        </p>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam architecto reiciendis numquam tempora ipsa, vero obcaecati quibusdam eveniet quam modi voluptatibus maiores quisquam praesentium asperiores quo. Alias impedit odit deserunt fugit vel, exercitationem provident et ut porro rerum. Officiis, debitis? Laboriosam similique iusto doloremque provident soluta doloribus amet minus asperiores.
         </p>
     </div>
 </body>
